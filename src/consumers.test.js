@@ -20,7 +20,7 @@ describe.each([
   // ['implementationSix', implementationSix ],
 ])("%s", (_, fn) => {
 
-  test("", () => {
+  test.skip("", () => {
     const result = fn();
     expect(result).toEqual(EXPECTED_RESULT);
   });
